@@ -7,7 +7,9 @@
 
 
 module.exports =  {
-    isOpen: function(){
+    isOpen: function(schedule, time){
+        const day = time.day;
+        const daytime = time.daytime;
         return "Open";
     }
 };
