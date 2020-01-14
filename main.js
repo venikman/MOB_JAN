@@ -1,7 +1,13 @@
-function test(num) {
-    return num
-}
+// function obj() {
+//     return 'Open';
+// }
 
-module.exports = {
-    test
-}
+
+
+
+
+module.exports =  {
+    isOpen: function(){
+        return "Open";
+    }
+};
